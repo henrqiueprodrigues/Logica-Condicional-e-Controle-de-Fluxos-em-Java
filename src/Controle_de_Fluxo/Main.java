@@ -107,6 +107,7 @@ public class Main {
 
     public static void ifFerias(Scanner scan){
         System.out.println("Digite o mes atual:");
+        scan.nextLine();
         String mes= scan.nextLine();
         System.out.println("mes= " + mes);
         if(mes.equals("Junho") || mes.equals("Dezembro") || mes.equals( "Janeiro")){
@@ -194,6 +195,7 @@ public class Main {
 
     public static void switchFerias(Scanner scan){
         System.out.println("Digite o mes atua:");
+        scan.nextLine();
         String mes= scan.nextLine();
         System.out.println("mes= " + mes);
         switch (mes){
